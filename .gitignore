@@ -1,0 +1,16 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore SSH keys and sensitive files
+id_ed25519
+id_ed25519.pub
+*.pem
+
+# Ignore Python and Jupyter-related files
+__pycache__/
+*.ipynb_checkpoints/
+*.conda/
+*.venv/
+*.env/
